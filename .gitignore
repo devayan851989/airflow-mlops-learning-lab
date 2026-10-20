@@ -1,0 +1,32 @@
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+
+# Python virtual environments (including the current root-level venv)
+.venv/
+venv/
+mlops-airflow/
+/bin/
+/include/
+/lib/
+/lib64
+/share/
+/pyvenv.cfg
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Airflow local state, database, and logs
+/airflow_home/
+/logs/
+*.db
+*.db-shm
+*.db-wal
+
+# Generated model artifacts and experiment tracking data
+/models/
+/mlruns/
+/mlartifacts/
